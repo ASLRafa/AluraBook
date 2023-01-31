@@ -79,6 +79,7 @@
     font-weight: 700;
     color: var(--branco);
     text-decoration: none;
+    transition: 0.5s;
 }
 
 @media screen and (min-width:1024px){
@@ -100,4 +101,46 @@
         width: 40% ;
         margin: 2em auto;
     }
+    .botões__ancora:hover{
+        background-color: var(--vermelho);
+
+    }
+
+}
+
+@media screen and (min-width:1728px){
+
+    .carrossel__container{
+        display:  flex;
+        gap: 1em;
+        margin: 0 10vw 3em 10vw;
+        align-items: center;
+    }
+
+    .swiper-pagination{
+        margin:0;
+    }
+
+
+    .swiper{
+        width:40%;
+    }
+    .descrição__titulo{
+        font-size: 32px;
+    }
+    .descrição__titulo-livro{
+        font-size: 18px;
+    }
+    .descrição__texto{
+        font-size: 16px;
+    }
+    .descrição{
+        margin-right:1em ;
+    }
+    
+    .card{
+        width: 50%;
+        margin-left: 2em;
+    }
+
 }
