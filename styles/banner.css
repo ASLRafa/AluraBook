@@ -28,7 +28,7 @@
     font-family: var(--fonte-principal);
     background-image: url('../img/Lupa.svg');
     background-repeat: no-repeat;
-    background-position: 1em;
+    background-position: 0.2em;
     font-size: 14px;
     font-weight: 400;
     text-align: center;
